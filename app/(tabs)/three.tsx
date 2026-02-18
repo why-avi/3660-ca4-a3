@@ -1,4 +1,5 @@
-import { StyleSheet } from 'react-native';
+import { Pressable, StyleSheet } from 'react-native';
+import { Link } from 'expo-router';
 
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
@@ -8,6 +9,11 @@ export default function TabThreeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Tab Three</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <Link href="/modal" asChild>
+        <Pressable>
+            asChild Link
+        </Pressable>
+      </Link>
       <EditScreenInfo path="app/(tabs)/two.tsx" />
     </View>
   );
