@@ -1,4 +1,6 @@
 Mobile Development Class Activity 4 and Assignment 3
+***
+# Instructions:
 CSCI 3660 Class Activity 4 and Assignment 3
 Class Activity (2/18)
 •	Create an Expo app from the navigation template: npx create-expo-app@latest --template then select the "navigation" template.
